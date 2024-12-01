@@ -62,7 +62,7 @@ class DataValidation:
             
             with open(self.config.STATUS_FILE, 'a') as f:
                 if all_valid:
-                    f.write(f"\nValidation status is: All columns have valid types.\n")
+                    f.write(f"\nValidation status is: True")
                 else:
                     f.write("Some columns have invalid types. Check details below:\n")
                     for column, status in validation_status.items():
