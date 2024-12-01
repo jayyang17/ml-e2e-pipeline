@@ -34,18 +34,18 @@ This repository implements a complete end-to-end Machine Learning (ML) pipeline,
 ```
 
 ## Development Workflow
-# Add New Features:
+### Add New Features:
 
 Use template.py to quickly scaffold new components.
 Update configuration files and main.py to integrate the new component.
 
-# CI/CD Integration:
+### CI/CD Integration:
 
 Push changes to trigger workflows in .github/workflows.
 
-# Testing:
+### Testing:
 
 Include unit tests for new features and run tests before pushing.
 
-## Acknowledgements
+### Acknowledgements
 Special thanks to krishnaik06 for the tutorial that guided the structure of this project.
