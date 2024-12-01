@@ -31,20 +31,21 @@ This repository implements a complete end-to-end Machine Learning (ML) pipeline,
 ├── schema.yaml           # Schema definition for data validation
 ├── setup.py              # Installation script for the project
 └── template.py           # Boilerplate for new pipeline components
+```
 
-##Development Workflow
-#Add New Features:
+## Development Workflow
+# Add New Features:
 
 Use template.py to quickly scaffold new components.
 Update configuration files and main.py to integrate the new component.
 
-#CI/CD Integration:
+# CI/CD Integration:
 
 Push changes to trigger workflows in .github/workflows.
 
-#Testing:
+# Testing:
 
 Include unit tests for new features and run tests before pushing.
 
-##Acknowledgements
+## Acknowledgements
 Special thanks to krishnaik06 for the tutorial that guided the structure of this project.
