@@ -13,8 +13,8 @@ logging.basicConfig(
     format=logging_str,
 
     handlers=[
-        logging.FileHandler(log_filepath), 
-        logging.StreamHandler(sys.stdout) # to see the message in the cmd in the log_filepath
+        logging.FileHandler(log_filepath), # Write logs to a file (logs/logging.log)
+        logging.StreamHandler(sys.stdout) # output logs to the cmd
     ]
 )
 
